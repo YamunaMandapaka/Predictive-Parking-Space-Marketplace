@@ -1,0 +1,35 @@
+/* Profile Card Styling */
+.profile-card {
+  width: 220px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-info h6 {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.profile-info p {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+/* Add hover effect to dropdown */
+#user-dropdown .dropdown-menu {
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+/* Optional: make profile image have border */
+.profile-image-container img {
+  border: 2px solid #007bff;
+}
+

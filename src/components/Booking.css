@@ -1,0 +1,146 @@
+/*.booking-page {
+    max-width: 950px;
+    margin: 60px auto;
+    padding: 50px 60px;
+    background: #f8fafc;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.booking-page h2 {
+    font-size: 34px;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subtext {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.map-box {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+    margin-bottom: 40px;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.booking-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.booking-btn {
+    background: linear-gradient(90deg, #007bff, #00b4d8);
+    color: white;
+    border: none;
+    padding: 14px 35px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+.booking-btn:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+}
+
+.note {
+    background-color: #e9f5ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 25px;
+    color: #333;
+    font-size: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+.leaflet-popup-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.leaflet-popup-content strong {
+    color: #007bff;
+}
+
+
+@media (max-width: 768px) {
+    .booking-page {
+        padding: 30px 20px;
+    }
+
+    .booking-btn {
+        width: 100%;
+    }
+}*/
+
+.booking-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    /* light cement tone */
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.booking-container h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.map-box {
+    height: 500px;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.book-slot-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.book-slot-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

@@ -1,0 +1,70 @@
+/* ====================== CUSTOM NAVBAR ====================== */
+.custom-navbar {
+    background: linear-gradient(90deg, #007bff, #1e3a8a); /* blue gradient */
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #ffc107; /* yellow hover effect */
+}
+
+.nav-link {
+    margin-left: 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107; /* yellow on hover */
+}
+
+.btn-outline-light {
+    transition: 0.3s;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffc107;
+    color: #1e3a8a;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    transition: 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+    border-color: #ffc107;
+}
+
+.profile-card h6 {
+    color: #1e3a8a;
+    font-weight: 600;
+}
+
+.profile-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-link {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+}
